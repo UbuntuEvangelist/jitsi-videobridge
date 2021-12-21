@@ -31,7 +31,7 @@
     <dependency>
       <groupId>io.callstats</groupId>
       <artifactId>callstats-java-sdk</artifactId>
-      <version>3.1.1</version>
+      <version>5.4.0</version>
     </dependency>
     <dependency>
       <groupId>com.googlecode.json-simple</groupId>
@@ -284,7 +284,7 @@
               <executable>java</executable>
               <arguments>
                 <argument>-classpath</argument>
-                <classpath />
+                <classpath/>
                 <argument>-Djava.util.logging.config.file=${project.basedir}/lib/logging.properties</argument>
                 <argument>${exec.mainClass}</argument>
               </arguments>
